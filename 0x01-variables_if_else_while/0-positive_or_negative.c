@@ -1,9 +1,17 @@
+/*
+ * File: 0-positive_or_negative.c
+ * Author: Pascal Madiri
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
 
-/* betty style doc for function main goes there */
+/*
+ * main - Prints a random number and states wether
+ 	it is positive, negative or zero.
+ */
+
 int main(void)
 {
 	int n;
@@ -13,14 +21,16 @@ int main(void)
 	/* your code goes there */
 	if (n > 0)
 	{
-		printf("%i, is positive.\n", n);
+		printf("%d, is positive.\n", n);
 	}
 	else if (n == 0)
 	{
-		printf("%i, is zero.\n", n);
+		printf("%d, is zero.\n", n);
 	}
 	else
 	{
-		printf("%i, is negative.\n", n);
+		printf("%d, is negative.\n", n);
 	}
+
+	return 0;
 }
